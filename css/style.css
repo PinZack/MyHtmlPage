@@ -1,0 +1,42 @@
+/* yorum satırı shift+alt+a ile yapılır */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    font-family: 'Merriweather', serif; /* google fonttan aldık */
+    padding: 20px;
+    font-size: 20px ;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}/* bunu yapmazsak kayma olur */
+
+
+a{
+    text-decoration: none; /* linklerin altindaki cizgileri kaldırdık */
+
+
+}
+
+input,textarea{
+
+border: 3px solid rgb(16, 187, 144);
+border-radius: 10px;
+width: 100%;
+padding: 15px;
+
+}
+
+button {
+    border: 3px solid rgb(16, 187, 144);
+    border-radius: 10px;
+    background-color: rgb(16, 187, 144);
+    font-size: 30px;
+    color: rgb(190, 22, 50);
+    padding: 10px 30px; /*  ilk parametre ust ve alttan uzaklıgı, ikinci parametre sag ve soldan uzakligi belirler */
+   
+
+}
